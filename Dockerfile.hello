@@ -4,7 +4,7 @@ RUN apt update -y && \
     apt install -y git python3 python3-pip
 
 ARG CACHE_DISTURB
-RUN git clone https://nohhyejin1/study_DockerSwarm
+RUN git clone https://github.com/nohhyejin1/study_DockerSwarm
 WORKDIR /study_DockerSwarm
 
-CMD ["python3", "hello.py"]
+CMD ["sh"]
