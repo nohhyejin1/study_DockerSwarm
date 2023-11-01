@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  hellopy:
+    image: hellopy
+    deploy:
+      mode: global
+      placement:
+        constraints:
+          - node.role == worker

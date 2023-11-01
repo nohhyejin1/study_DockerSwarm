@@ -5,6 +5,6 @@ RUN apt update -y && \
 
 ARG CACHE_DISTURB
 RUN git clone https://github.com/nohhyejin1/study_DockerSwarm
-WORKDIR /study_DockerSwarm
+# COPY hello.py .
 
 CMD ["python3", "hello.py"]
