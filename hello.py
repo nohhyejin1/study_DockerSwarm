@@ -12,5 +12,6 @@ while True:
     print("You typed:")
     print(question)
     print()
+    print("=============")
     print()
     time.sleep(1)
