@@ -11,4 +11,6 @@ while True:
     print()
     print("You typed:")
     print(question)
+    print()
+    print()
     time.sleep(1)
