@@ -3,9 +3,7 @@ version: '3.7'
 services:
   hellopy:
     image: hellopy
-    port: 1234
     deploy:
-      mode: global
-      placement:
-        constraints:
-          - node.role == worker
+      replicas: 3
+    ports: 
+      - 1234:1234
