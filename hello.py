@@ -3,7 +3,7 @@ import time
 print("Hello!")
 print("It is", time.strftime('%Y-%m-%d %H:%M:%S'))
 print()
-print("Type 'terminate' or 'exit' if you want to exit :")
+print("Type 'terminate' or 'exit' if you want to exit!")
 print()
 
 while True:
